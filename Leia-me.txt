@@ -1,0 +1,27 @@
+			######################################################
+			######Bem vindo ao projeto de FPIN Wikilitica#########
+			######################################################
+
+Abaixo, iremos listar alguns requisitos e compatibilidades do sistema.
+
+
+
+1.Requisitos:
+
+	1. Funciona em qualquer browser (navegador);
+	2. No mínimo, um servidor instalado em sua máquina local: Xampp ou Wamp;   ( FALTA)
+
+2. Como usar:
+
+	1.Em seu servidor Xampp, Wamp, ou outro de sua preferência, vá na parte do PHPMyAdmin e importe o arquivo
+	chamado arquivo.sql. Esse processo cria a base de dados no servidor sem precisar criar todas as regras e 
+	tabelas e colunas uma à uma;   ( FALTA)
+
+	2. Coloque a pasta dos arquivos do Wikilitica em seu diretório no servidor (Xampp ou Wampp);  ( FALTA)
+	
+	3. Abra seu navegador, digite: localhost/ + o nome da pasta da Wikilitica.   ( FALTA)
+
+
+
+
+	Componete : Victor Aurelio Melo Paccola - victor.paccola@gmail.com

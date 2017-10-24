@@ -1,0 +1,243 @@
+
+
+body{
+	background-color: #C0C0C0;
+	margin: 0;
+    padding: 0;
+	font-family: Tahoma, arial,verdana;
+	font-size: 13px;
+	color: #000;
+	}
+
+	img {
+		width:100%; 
+		height:auto;
+
+	}
+
+a{ text-decoration: none; color: #000;}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	margin: 0 ;
+	width: 100%;
+	height: 100%;
+	padding 1;
+
+}
+
+/* Menu */
+.menu{
+	background: #C0C0C0;
+	width: 100%;
+	height: 100%;
+	margin: 10px 0 0 0;
+	padding: 0;
+
+	box-shadow: 1px 1px 3px #888888;
+	-moz-box-shadow:    1px 1px 3px #888888;
+  	-webkit-box-shadow: 1px 1px 3px #888888;
+	border-radius: 2px;	
+}
+
+.menu li{
+	display: inline;
+}
+.menu-top li a{
+	width: 15%;
+	height: 100%;
+	padding: 8px 30px;
+	float: left;
+	text-shadow: 0px 2px 3px #666;
+}
+.menu-top li a:hover{
+	background: #993366;
+	color: #fff;
+	border-bottom: solid 4px #C0C0C0;
+	border-radius: 2px;
+	text-shadow:2px 0px 2px #fff;
+}
+
+/* Main */
+
+.input1{
+	 width: 200%;
+     height: 50px;
+     font-size: 100%;
+}
+
+.main{
+   	width: 100%;
+	height: auto;
+	float: left;
+	margin: 15px 0 15px 0;
+} /*
+.main .box-left{
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: #993366;
+}
+.main .box-right{
+	width: 100%;
+	height: 100%;
+	float: right;
+	margin-right: 15px;
+	background: #C0C0C0;
+}*/
+.main .box-text{
+	width: 100%;
+	height: 100%;
+	margin-top: 18px;
+	float: left;
+	padding: 15px;
+}
+.main .box-text2{
+	width: 100%;
+	height: 100%;
+	margin-top: 18px;
+	float: right;
+	background: #993366;
+	padding: 15px;
+	text-align: justify;
+}
+
+/* Footer  Detalhes do Rodapé*/
+.footer{
+	width: 100%;
+	height: 60px;
+	float: left;
+	background: #993366;
+	color: #C0C0C0;
+	margin-bottom: 15px;
+}
+
+.footer-box h4{
+	text-shadow:1px 0px 1px #1C1C1C;
+	font-style: inherit;
+}
+.footer-box li a{ color: #fff; }
+.footer-box li a:hover{ 
+	color: #fff;
+	background:#1C1C1C; 
+	border-bottom: solid 2px #FF8C00;
+	padding: 0px 5px;
+}
+.footer-box{
+	width: 245px;
+	height: 130px;
+	float: left;
+
+}
+.footer-box ul{
+	margin-left: 50px;
+}
+.footer .copyright{
+	width: 100%;
+	height: 30px;
+	float: left;
+	background: #1C1C1C;
+	text-align: center;
+	border-top: solid 2px #FF8C00;
+}
+.footer .copyright h5{
+	margin-top: 8px;
+
+}
+
+
+
+
+/*********** Cadastro **********/
+table.center{	
+	border: 5px solid #993366;
+	width: 70%;
+	margin-left: 100%;
+	margin-right: 100%;
+	/*background-color: rgb(217, 221, 217);*/
+}
+
+
+td{
+	height: 30px;
+	/*border: 1px solid #993366;*/
+}
+
+.titulo{
+	text-align: center;
+}
+
+input{
+	
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.style1{
+	color: red;
+}
+
+
+#radio{
+	width: 10px;
+	margin-bottom: -5px;
+	
+}
+form{
+	width: 350px;
+	height: auto;
+	float: left;
+}
+.contact{
+	width: 300px;
+	height: 255px;
+	float: right;
+	color:#222222;
+}
+.campo{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	color:#222222;
+}
+#enviar{
+	width: 150px;
+	height: auto;
+	padding: 3px 20px;
+	background: #222222;
+	color: #FFF;
+	border-bottom: solid 3px #FF8C00;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	font-weight: normal;
+	float: left;
+	margin: 10px 0 0 157px;
+	cursor: pointer;
+}
+
+/* Sobre */
+.sobre{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 5px;
+	background: #FFFFFF;
+	text-align: justify;
+	margin-bottom: 15px;
+	display: grid;
+}
+.sobre p {
+	display: inline;
+} 
+.sobre ul{
+	padding: 3em;
+}
+.sobre li{
+	padding: 0.5em;
+}

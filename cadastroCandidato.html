@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro de Candidato</title>
+
+	<meta http-equiv="content-language" content="pt-br">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	
+
+	<!-- Importando a folha de estilo CSS para o HTML -->
+	<link rel="stylesheet" type="text/css" href="css/layout.css"> 
+  <link rel="shortcut icon" href="img/cabecalhojpg" type="image/cabecalho"> 
+   <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+<div class="container">
+  <img src="img/cabecalho.jpg" alt="imagem1" />
+
+  <div class="menu">
+
+	<!-- MENU -->
+	<div class="menu">
+		<ul class="menu-top">
+			<LI><a href="index.html">INÍCIO</a></LI>
+			<LI><a href="gerenciar.html">GERENCIAR</a></LI>
+			<LI><a href="informacoes.html">INFORMAÇÕES</a></LI>
+			<LI><a href="cadastroCandidato.html">CADASTRO</a></LI>
+		    <LI><a href="login.html">LOGIN</a></LI>
+			
+		</ul>
+	</div>
+	<!-- MAIN -->
+	<div class="main">
+		<div class="sobre">
+      <h1 class="titulo">Cadastro de Candidato</h1>
+      <form action="envio.php">
+      <table class="center" width="625" border="0">
+        <tr>
+          <td width="69">Nome Candidato:</td>
+          <td width="546"><input name="nome" type="text" id="nome" size="65" maxlength="60" required/>
+            <td><span class="style1">*</span></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input name="email" type="text" id="email" size="35" maxlength="60" required/>
+          <span class="style1">*</span></td>
+        </tr>
+
+ 		    <tr>
+          <td>Senha:</td>
+          <td><input name="senha" type="password" id="senha" size="35" maxlength="60" required/>
+          <span class="style1">*</span></td>
+
+        </tr>  
+        
+        <tr>
+          <td>Profissão:</td>
+          <td><input name="profissao" type="text" id="profissao" size="35" maxlength="60" required/>
+          <span class="style1">*</span></td>
+
+        </tr>
+
+        <tr>
+            <td>CPF:</td>
+            <td><input name="cpf" type="int" id="cpf" size="35" maxlength="11" required/>
+            <span class="style1">*</span></td>
+  
+          </tr> 
+
+        <tr>
+          <td>Sexo:</td>
+          <td>
+		    <input name="sexo" type="radio" value="M" checked="checked" />Masculino</span>
+            <input name="sexo" type="radio" value="F" />Feminino 
+		  </td>
+        </tr> <p>
+	
+        <tr>
+          <td>Telefone:</td> 
+			    <td><input name="telefone" type="int" id="ddd" size="20" maxlength="30" required/><td>
+
+		    </tr>
+
+        <tr>
+          <td>Endereço:</td>
+          <td><input name="endereco" type="text" id="endereco" size="65" maxlength="70" required/>
+            <td><span class="style1">*</span></td>
+        </tr>
+       
+       
+        <tr>
+          <td>Bairro:</td>
+          <td><input name="bairro" type="text" id="bairro" maxlength="40" required/>
+            <span class="style1">*</span></td>
+        </tr>
+
+        <tr>
+          <td>Cidade:</td>
+          <td><input name="cidade" type="text" id="cidade" maxlength="40" required/>
+            <span class="style1">*</span></td>
+        </tr>
+	
+	 <tr>
+      <td>Escolaridade:</td>
+      <td><select name="escolaridade" id="escolaridade" required>
+        <option>Selecione...</option>
+        <option value="A">Ensino Médio Incompleto</option>
+        <option value="C">Ensino Médio Completo</option>
+        <option value="D">Ensino Superior Incompleto</option>
+        <option value="F">Ensino Superior Completo</option>
+        <option value="G">Nenhuma das opções a cima </option>
+        
+         </select>
+	
+        <span class="style1">*      </span></td>
+    </tr>
+
+    <tr>
+        <td>Partido:</td>
+        <td><select name="partido" id="partido" required>
+          <option>Selecione o partido...</option>
+              <option value="pt">PT</option>
+              <option value="psdb">PSDB</option>
+              <option value="pmdb">PMDB</option>
+              <option value="psdb">PP</option>					
+              <option value="pt">PTB</option>
+              <option value="psdb">PDT</option>					
+              <option value="pt">PSB</option>
+              <option value="psdb">PCdoB</option>		
+  </select>
+    
+          <span class="style1">*      </span></td>
+      </tr>
+
+	  <tr>
+        <td>Estado:</td>
+        <td><select name="Estado" id="estado" required>
+    
+        <option value="">Selecione</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espirito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+  	  </select>
+      <span class="style1">*</span></td>
+      
+    </tr>
+    
+    <tr>
+      <td>Realização da vida:</td>
+
+        <td><input name="realizacao" type="text" id="realizacao" size="65" maxlength="100" required/>
+    </tr>
+
+
+        <tr>
+           <td colspan="2"><input name="news" type="checkbox" id="news" value="ATIVO" checked="checked"/>
+            Desejo receber novidades e informações sobre o conteúdo por email. </td>
+        </tr>
+        <tr>
+           <td colspan="2"><p>
+            <input name="cadastrar" type="submit" id="cadastrar" value="Gravar"/>
+			       <input name="limpar" type="reset" id="limpar" value="Limpar Campos preenchidos"/>
+            <span class="style1">Campos com * são obrigatórios!</span></p> 
+          <p>  </p></td>
+        </tr>
+      </table>
+    </form>
+					
+
+
+			</div>
+		</div>
+	</div>
+	
+
