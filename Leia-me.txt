@@ -18,7 +18,7 @@ Abaixo, iremos listar alguns requisitos e compatibilidades do sistema.
 	tabelas e colunas uma à uma;   ( FALTA)
 
 	2. Coloque a pasta dos arquivos do Wikilitica em seu diretório no servidor (Xampp ou Wampp);  ( FALTA)
-	
+	 aaaa
 	3. Abra seu navegador, digite: localhost/ + o nome da pasta da Wikilitica.   ( FALTA)
 
 
