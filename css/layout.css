@@ -1,12 +1,13 @@
 
 
-body{
+html,body{
 	background-color: #C0C0C0;
 	margin: 0;
     padding: 0;
 	font-family: Tahoma, arial,verdana;
 	font-size: 13px;
 	color: #000;
+	text-align: center;
 	}
 
 	img {
@@ -39,26 +40,26 @@ ul{
 	margin: 10px 0 0 0;
 	padding: 0;
 
-	box-shadow: 1px 1px 3px #888888;
+	/*box-shadow: 1px 1px 3px #888888;
 	-moz-box-shadow:    1px 1px 3px #888888;
   	-webkit-box-shadow: 1px 1px 3px #888888;
-	border-radius: 2px;	
+	border-radius: 2px;	*/
 }
 
 .menu li{
 	display: inline;
 }
 .menu-top li a{
-	width: 15%;
+	width: 10%;
 	height: 100%;
-	padding: 8px 30px;
-	float: left;
+	padding: 15px 100px;
+	float: center;
 	text-shadow: 0px 2px 3px #666;
 }
 .menu-top li a:hover{
 	background: #993366;
 	color: #fff;
-	border-bottom: solid 4px #C0C0C0;
+	border-bottom: solid 5px #663366;
 	border-radius: 2px;
 	text-shadow:2px 0px 2px #fff;
 }
@@ -156,9 +157,9 @@ ul{
 /*********** Cadastro **********/
 table.center{	
 	border: 5px solid #993366;
-	width: 70%;
-	margin-left: 100%;
-	margin-right: 100%;
+	width: 100%;
+	margin-left: 130%;
+	margin-right: 130%;
 	/*background-color: rgb(217, 221, 217);*/
 }
 
