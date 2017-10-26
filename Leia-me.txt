@@ -25,3 +25,5 @@ Abaixo, iremos listar alguns requisitos e compatibilidades do sistema.
 
 
 	Componete : Victor Aurelio Melo Paccola - victor.paccola@gmail.com
+		    Jonathan Alajoan Nascimento Rocha - alajoan.jonathan@gmail.com
+		    Leonardo Serbim -
