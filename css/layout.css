@@ -75,8 +75,8 @@ ul{
 .main{
    	width: 100%;
 	height: auto;
-	float: left;
-	margin: 15px 0 15px 0;
+	float: center;
+	margin: 0px 0 0px 0;
 } /*
 .main .box-left{
 	width: 100%;
@@ -155,13 +155,6 @@ ul{
 
 
 /*********** Cadastro **********/
-table.center{	
-	border: 5px solid #993366;
-	width: 100%;
-	margin-left: 130%;
-	margin-right: 130%;
-	/*background-color: rgb(217, 221, 217);*/
-}
 
 
 td{
@@ -226,12 +219,14 @@ form{
 .sobre{
 	width: 100%;
 	height: auto;
+	margin: auto;
+	margin-top: 1%;
 	float: left;
 	padding: 5px;
 	background: #FFFFFF;
 	text-align: justify;
 	margin-bottom: 15px;
-	display: grid;
+	/*display: grid;*/
 }
 .sobre p {
 	display: inline;
@@ -241,4 +236,16 @@ form{
 }
 .sobre li{
 	padding: 0.5em;
+}
+
+.sobre table{
+
+	/*width: 100%;*/
+	height: auto;
+	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 185%;
+	padding-left: 185%; 
+	margin-top: 10%;
 }
