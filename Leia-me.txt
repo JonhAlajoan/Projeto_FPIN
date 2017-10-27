@@ -9,21 +9,21 @@ Abaixo, iremos listar alguns requisitos e compatibilidades do sistema.
 1.Requisitos:
 
 	1. Funciona em qualquer browser (navegador);
-	2. No mínimo, um servidor instalado em sua máquina local: Xampp ou Wamp;   ( FALTA)
+	2. No mï¿½nimo, um servidor instalado em sua mï¿½quina local: Xampp ou Wamp;   ( FALTA)
 
 2. Como usar:
 
-	1.Em seu servidor Xampp, Wamp, ou outro de sua preferência, vá na parte do PHPMyAdmin e importe o arquivo
+	1.Em seu servidor Xampp, Wamp, ou outro de sua preferï¿½ncia, vï¿½ na parte do PHPMyAdmin e importe o arquivo
 	chamado arquivo.sql. Esse processo cria a base de dados no servidor sem precisar criar todas as regras e 
-	tabelas e colunas uma à uma;   ( FALTA)
+	tabelas e colunas uma ï¿½ uma;   ( FALTA)
 
-	2. Coloque a pasta dos arquivos do Wikilitica em seu diretório no servidor (Xampp ou Wampp);  ( FALTA)
+	2. Coloque a pasta dos arquivos do Wikilitica em seu diretï¿½rio no servidor (Xampp ou Wampp);  ( FALTA)
 	 aaaa
 	3. Abra seu navegador, digite: localhost/ + o nome da pasta da Wikilitica.   ( FALTA)
 
 
 
 
-	Componete : Victor Aurelio Melo Paccola - victor.paccola@gmail.com
-		    Jonathan Alajoan Nascimento Rocha - alajoan.jonathan@gmail.com
-		    Leonardo Serbim -
+	Componete : Victor Aurelio Melo Paccola - victor.paccola@gmail.com 
+				Leonardo Serbim - leonardoserbim@gmail.com 
+				Jonathan Alajoan - alajoan.jonathan@gmail.com
